@@ -3,9 +3,29 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
 }
 
 h1 {
-    color: white;
+    color: #ffffff;
+}
+
+.ball {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.ball span {
+    font-size: 2.2em;
+    display: flex;
 }
