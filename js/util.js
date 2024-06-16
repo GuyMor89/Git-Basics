@@ -5,3 +5,5 @@ function getRandomInt(min, max) {
     const maxFloored = Math.floor(max);
     return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled)
 }
+
+var randomColor = () =>  Math.floor(Math.random()*16777215).toString(16);
