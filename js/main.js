@@ -8,6 +8,8 @@ function onBallClick(elBall) {
 
     ballSize += 50
 
+    if (ballSize > 400) ballSize = 100
+
     elBall.style.height = ballSize + 'px'
     elBall.style.width = ballSize + 'px'
 
