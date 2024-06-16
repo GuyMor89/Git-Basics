@@ -6,7 +6,7 @@ var ballSize = 100
 function onBallClick(elBall) {
     var ballText = document.querySelector('.ball span')
 
-    ballSize += 50
+    ballSize += getRandomInt(20, 60)
 
     if (ballSize > 400) ballSize = 100
 
